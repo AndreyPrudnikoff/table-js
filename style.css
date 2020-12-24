@@ -1,0 +1,31 @@
+#root {
+    padding: 50px 10%;
+    text-align: center;
+    font: 14pt Georgia
+}
+
+table {
+    margin: 0 auto;
+}
+
+table, tr, td, th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: bold;
+    padding: 3px 10px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+tr:hover {
+    background-color: lightblue;
+}
+
+td {
+    font-weight: normal;
+    padding: 3px;
+    text-align: left;
+    font: 12pt "Roboto Light";
+}
